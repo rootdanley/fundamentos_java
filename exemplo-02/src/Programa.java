@@ -15,9 +15,23 @@ public class Programa {
 		product.price = sc.nextDouble();
 		System.out.print("Quantity in stock:");
 		product.quantity = sc.nextInt();
-		
-		System.out.print(product.getClass());
-		
+
+		System.out.println("Product data:" + product);
+		System.out.println();
+
+		System.out.print("Enter the number of products to be added in stock:");
+		int quantity = sc.nexInt();
+		product.addProducts(quantity);
+
+		System.out.println("Update data:" + product);
+
+		System.out.println();
+		System.out.print("Enter the number of products to be removed in stock:");
+		quantity = sc.nexInt();
+		product.removeProducts(quantity);
+
+
+		System.out.println("Update data:" + product);
 		sc.close();
 	}
 }
