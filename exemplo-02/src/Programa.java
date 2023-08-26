@@ -20,14 +20,14 @@ public class Programa {
 		System.out.println();
 
 		System.out.print("Enter the number of products to be added in stock:");
-		int quantity = sc.nexInt();
+		int quantity = sc.nextInt();
 		product.addProducts(quantity);
 
 		System.out.println("Update data:" + product);
 
 		System.out.println();
 		System.out.print("Enter the number of products to be removed in stock:");
-		quantity = sc.nexInt();
+		quantity = sc.nextInt();
 		product.removeProducts(quantity);
 
 
