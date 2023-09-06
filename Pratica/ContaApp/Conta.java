@@ -1,9 +1,9 @@
 package Pratica.ContaApp;
 
 public class Conta {
-  private int number;
+  private Integer number;
   private String holder;
-  private double balance;
+  private Double balance;
 
   // constructor
   public Conta(int number, String holder) {

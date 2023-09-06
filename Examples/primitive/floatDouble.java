@@ -9,7 +9,7 @@ public class floatDouble {
     // o java assume que todo numero com um ponto (43.4) é um double
     // se tentarmos declar como float ele da erro
 
-    float f = 34.3; // erro cannot convert to double
+    // float f = 34.3; // erro cannot convert to double
 
     // modo certo
     float m = 34.3f;

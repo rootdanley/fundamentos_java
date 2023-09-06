@@ -1,0 +1,30 @@
+Estrutura de dado
+
+- homogenea 
+- ordenada 
+- inicia vazia 
+- cada elemento ocupa um nodo (nó)
+
+Tipo (interface): List 
+- classes que implementam: ArrayList, LinkedList, etc...  
+
+Vantagens
+- tamanho variavel 
+- facilidade para se realizar inserções e delecoes 
+
+Desvantagens 
+- acesso sequencial aos elementos 
+
+
+OBS: Onde o vetor é fraco, o ArrayList é forte e melhor 
+Array list mistura vetor e lista, tornado mais eficiente 
+
+----------------------------------------------------------------
+Demo 
+
+tamanho da lista: -> size()
+inserir elemento na lista: -> add(obj) , add(int, obj)
+remover elementos da lista: -> remove(obj) , remove(int), removeIf(Predicate)
+encotrar posicao de elemento: -> indexOf(obj) , lastIndexOf(obj)
+filtrar lista com base em predicado: -> List<Integer> result  = list.stream().filter(x -> x > 4).collect(Collectors.toList());
+encontrar primeira ocorrencia com base em predicado: -> List<Integer> result = list.stream().filter(x -> x > 4).findFirst().orElse(null);
