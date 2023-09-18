@@ -1,12 +1,12 @@
-package TrabalhoApp.entities;
+package ContratoApp.entities;
 
-public class Departamento {
+public class Department {
   private String name;
 
-  public Departamento() {
-  }
+  public Department() {
+  };
 
-  public Departamento(String name) {
+  public Department(String name) {
     this.name = name;
   }
 

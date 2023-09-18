@@ -1,4 +1,4 @@
-package Examples.switchCasaAvancado;
+package ESTUDO.SwtichCaseAvancado;
 
 import java.util.Scanner;
 

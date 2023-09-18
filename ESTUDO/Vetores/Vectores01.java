@@ -1,4 +1,4 @@
-package Examples;
+package ESTUDO.Vetores;
 
 public class Vectores01 {
   public static void main(String[] args) {

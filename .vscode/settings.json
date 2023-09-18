@@ -1,4 +1,7 @@
 {
-  "editor.fontSize": 12.5,
-  "editor.tabSize": 2
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.letterSpacing": 0.1,
+  "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace"
 }

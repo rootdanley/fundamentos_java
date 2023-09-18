@@ -1,4 +1,4 @@
-package TrabalhoApp.entities.enumerado;
+package ContratoApp.entities.enumContrato;
 
 public enum WorkerLevel {
   JUNIOR,
