@@ -20,7 +20,7 @@ public class Program {
     String deptName = sc.nextLine();
 
     System.out.print("Enter worker data: ");
-    System.out.print("Name: ");
+    System.out.println("Name: ");
     String workerName = sc.nextLine();
 
     System.out.print("Level: ");
@@ -29,7 +29,7 @@ public class Program {
     System.out.print("Base Salary: ");
     double baseSalary = sc.nextDouble();
 
-    Worker worker = new Worker(workerLevel, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(deptName));
+    Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(deptName));
 
 
 
@@ -49,5 +49,20 @@ public class Program {
 
       worker.addContract(contract);
     }
+
+    System.out.println();
+
+    System.out.print("Enter month and year: ");
+    String monthAndYear = sc.next();
+
+    int month = Integer.parseInt(monthAndYear.substring(0, 2));
+    int year = Integer.parseInt(monthAndYear.substring(3));
+
+
+    System.out.println("Name:" + worker.getName());
+    System.out.println("Department: " + worker.getDepartment().getName());
+    System.out.printf("Income for %s : %.2f", monthAndYear, worker.income(year, month));
+
+    sc.close();
   }
 }
