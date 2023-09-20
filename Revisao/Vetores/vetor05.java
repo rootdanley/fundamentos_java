@@ -1,8 +1,8 @@
-package Vetores;
+package Revisao.Vetores;
 
 import java.util.Scanner;
 
-public class vet05 {
+public class vetor05 {
   public static void main(String[] args) {
     // Faça um programa que leia N números inteiros e armazene-os em um vetor. Em
     // seguida, mostre na

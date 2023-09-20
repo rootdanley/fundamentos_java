@@ -1,4 +1,4 @@
-package ESTUDO.SwtichCaseAvancado;
+package Revisao.SwtichCaseAvancado;
 
 import java.util.Scanner;
 

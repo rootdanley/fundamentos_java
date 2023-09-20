@@ -1,4 +1,4 @@
-package Vetores.entities;
+package Revisao.Vetores.entities;
 
 public class Pessoas {
   private String name;

@@ -1,8 +1,8 @@
-package Vetores;
+package Revisao.Vetores;
 
 import java.util.Scanner;
 
-public class vet03 {
+public class vetor07 {
   public static void main(String[] args) {
     // Faça um programa que leia N números reais e armazene-os em um vetor. Em
     // seguida:

@@ -1,8 +1,8 @@
-package Vetores;
+package Revisao.Vetores;
 
 import java.util.Scanner;
 
-public class vet01 {
+public class vetor08 {
   public static void main(String[] args) {
     // Faça um programa que leia um número inteiro positivo N (máximo = 10) e depois
     // N números inteiros

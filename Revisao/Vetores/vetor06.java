@@ -1,10 +1,10 @@
-package Vetores;
+package Revisao.Vetores;
 
 import java.util.Scanner;
 
-import Vetores.entities.Pessoas;
+import Revisao.Vetores.entities.Pessoas;
 
-public class vet04 {
+public class vetor06 {
   public static void main(String[] args) {
     // Fazer um programa para ler nome, idade e altura de N pessoas, conforme
     // exemplo. Depois, mostrar na

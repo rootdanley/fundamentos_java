@@ -1,11 +1,11 @@
-package Vetores;
+package Revisao.Vetores;
 
 import java.util.Scanner;
 
-import Vetores.entities.Produtos;
+import Revisao.Vetores.entities.Produtos;
 
 // VETOR COM TIPO REFERENCIA
-public class vt02 {
+public class vetor03 {
   public static void main(String[] args) {
     // fazer um programa para ler um numero inteiro 'n' e os dados (nome e preço)
     // de 'n' produtos. Armazene os 'n' produtos em um vetor. Em seguida, mostrar o
