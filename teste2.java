@@ -1,10 +1,23 @@
+import java.util.Scanner;
+
 public class teste2 {
   public static void main(String[] args){
-    double[] a = new double[3];
+    Scanner sc = new Scanner(System.in);
+    
 
 
-    for (int i = 0; i < 3; i++){
-      System.out.println(a[i]);
+    System.out.println("Numero de pessoas:");
+    int pessoas = sc.nextInt();
+
+    double[] altura = new double[pessoas];
+    double soma = 0.0;
+
+    for(int i = 0; i < altura.length; i++){
+      System.out.println("Digite a altura da pessoa " + (i + 1) + ":");
+      altura[i] = sc.nextDouble();
+      soma += altura[i];
     }
+
+    System.out.println("A media das alturas é: " + (soma / pessoas));
   }
 }

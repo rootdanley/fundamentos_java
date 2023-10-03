@@ -1,7 +1,29 @@
 {
-  "editor.fontSize": 15,
+  // Set the font
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  // Turn on font ligatures
   "editor.fontLigatures": true,
+  // Set letter spacing
+  "editor.letterSpacing": -1.8,    // Enable smooth scrolling in the editor
+  "editor.smoothScrolling": true,
+  "workbench.iconTheme": "a-file-icon-vscode",
+  "redhat.telemetry.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.linkedEditing": true,
   "editor.tabSize": 2,
-  "editor.letterSpacing": 0.1,
-  "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace"
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.openRepositoryInParentFolders": "always",
+  "[java]": {
+    "editor.formatOnSave": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontSize": 14,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "Vim Light Soft",
+  
 }
