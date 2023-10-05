@@ -42,8 +42,6 @@ public class Program {
 
         System.out.print(i + ": " + p[i].getName() + ", " + p[i].getEmail());
       }
-
     }
-
   }
 }

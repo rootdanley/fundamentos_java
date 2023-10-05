@@ -1,3 +1,4 @@
+package baguncinha;
 import java.util.Scanner;
 
 public class teste2 {

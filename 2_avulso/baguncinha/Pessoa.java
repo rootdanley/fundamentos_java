@@ -1,3 +1,4 @@
+package baguncinha;
 public class Pessoa {
   private Double altura;
   private Character sexo;
@@ -15,9 +16,11 @@ public class Pessoa {
   public Character getSexo() {
     return sexo;
   }
+
   public void setSexo(Character sexo) {
     this.sexo = sexo;
   }
+
   @Override
   public String toString() {
     return "Pessoa{" +
