@@ -1,2 +1,0 @@
-# guessing-terminal
-Projeto java
