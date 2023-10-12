@@ -1,43 +1,25 @@
 package Faculdade.entities;
 
+import Faculdade.utils.ValorInvalidoException;
+
 public class ListaManipulator {
 
     private Integer[] arr;
-    private Integer num;
+    private Integer numero;
+    private boolean isOrdenado = false;
 
-
-    // construtores 
     public ListaManipulator(Integer[] arr) {
         this.arr = arr;
     }
-
-    public ListaManipulator(Integer[] arr, Integer num) {
-      this.arr = arr;
-      this.num = num;
-    }
-
-    public ListaManipulator(){ }
-    
-    
-    //getters e setters
 
     public Integer[] getArr() {
         return arr;
     }
 
+    
     public void setArr(Integer[] arr) {
         this.arr = arr;
     }
-
-    public Integer getNum() {
-        return num;
-    }
-
-    public void setNum(Integer num) {
-        this.num = num;
-    }
-
-    //métodos
 
     public void bubbleSort() {
       for(int i=0;i<arr.length;i++){//FOR i para percorrer as posições
@@ -84,24 +66,35 @@ public class ListaManipulator {
 	    arr[i] = aux;// e a antiga posição que foi trocada, vai para a aux
 		}
   }
-
-
-  public Integer buscaBinaria(Integer arr[], Integer numero ){
-    int esquerda = 0;
-    int direita = arr.length - 1;
-    int meio;
-    while(esquerda <= direita){
-      meio = (esquerda + direita) / 2;
-      if(arr[meio] == numero){
-        return meio;
-      }
-      if(arr[meio] < numero){
-        esquerda = meio + 1;
-      }
-      if(arr[meio] > numero){
-        direita = meio - 1;
-      }
+    
+public Integer buscaBinaria(Integer arr[], Integer numero) {
+    try {
+        new ValorInvalidoException(arr);
+    } catch (ValorInvalidoException e) {
+        System.out.println(e.getMessage());
     }
+
+    if (numero != null) {
+        int esquerda = 0;
+        int direita = arr.length - 1;
+        int meio;
+
+        while (esquerda <= direita) {
+            meio = (esquerda + direita) / 2;
+            if (arr[meio].equals(numero)) {
+                return meio;
+                
+            }
+            if (arr[meio] < numero) {
+                esquerda = meio + 1;
+            }
+            if (arr[meio] > numero) {
+                direita = meio - 1;
+            }
+        }
+    }
+
     return -1;
-  }
+}
+
 }
