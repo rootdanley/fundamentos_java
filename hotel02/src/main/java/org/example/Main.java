@@ -1,4 +1,4 @@
-package org.example;
+package hotel02.src.main.java.org.example;
 
 import org.example.models.entities.Reservation;
 import org.example.models.exceptions.DomainExpection;
