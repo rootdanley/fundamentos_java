@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.products.App",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Programa",
+      "request": "launch",
+      "mainClass": "LaPensao.Programa",
+      "projectName": ""
+    },
+    {
+      "type": "java",
       "name": "programa",
       "request": "launch",
       "mainClass": "programa",
