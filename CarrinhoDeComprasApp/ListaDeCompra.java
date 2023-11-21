@@ -17,6 +17,7 @@ public class ListaDeCompra {
 
   public void removerItem(String nome){
     List<CarrinhoDeCompra> removerItemList = new ArrayList<CarrinhoDeCompra>();
+
     for(CarrinhoDeCompra c : this.listaDeCompra){
       if(c.getNome().equalsIgnoreCase(nome)){
         removerItemList.add(c);
@@ -28,7 +29,8 @@ public class ListaDeCompra {
 
 
   public Double CalcularValorTotal(){
-    Double valorTotal = 0.0;
+    double valorTotal = 0.0;
+
     for(CarrinhoDeCompra carrinho : this.listaDeCompra) {
       valorTotal += carrinho.getPreco() * carrinho.getQuantidade();
     }
