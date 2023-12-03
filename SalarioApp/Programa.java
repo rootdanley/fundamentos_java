@@ -49,7 +49,7 @@ public class Programa {
       System.out.println("Não encontrado");
     }
 
-
+//teste de wsl2 oracle linux
     System.out.println(empregado);
   }
 }
