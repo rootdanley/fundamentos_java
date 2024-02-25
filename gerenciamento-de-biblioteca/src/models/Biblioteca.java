@@ -40,7 +40,6 @@ public class Biblioteca {
                 livrosEncontrados.add(livro);
             }
         }
-
         return livrosEncontrados.isEmpty() ? null : livrosEncontrados;
     }
 

@@ -26,7 +26,8 @@ public class LivroDigital extends Livro{
     public void setTamanhoArquivo(double tamanhoArquivo) {
         this.tamanhoArquivo = tamanhoArquivo;
     }
-
+    
+    
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("LivroDigital{");

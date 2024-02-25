@@ -84,17 +84,6 @@ public class Menu {
       System.out.print("Digite o tamanho do livro em MB: ");
       double tamanho = Double.parseDouble(scanner.nextLine());
       
-      return new LivroDigital(lerDadosComunsDoLivro(), formato, tamanho);
-   }
-   
-   private LivroFisico criarLivroFisico() {
-      System.out.print("Digite o número de páginas: ");
-      int paginas = Integer.parseInt(scanner.nextLine());
-      
-      return new LivroFisico(lerDadosComunsDoLivro(), paginas);
-   }
-   
-   private Livro lerDadosComunsDoLivro() {
       System.out.print("Digite o título do livro: ");
       String titulo = scanner.nextLine();
       
@@ -104,7 +93,23 @@ public class Menu {
       System.out.print("Digite o ISBN do livro: ");
       String isbn = scanner.nextLine();
       
-      return new Livro(titulo, autor, isbn);
+      return new LivroDigital(titulo,autor,isbn,formato,tamanho);
+   }
+   
+   private LivroFisico criarLivroFisico() {
+      System.out.print("Digite o número de páginas: ");
+      int paginas = Integer.parseInt(scanner.nextLine());
+      
+      System.out.print("Digite o título do livro: ");
+      String titulo = scanner.nextLine();
+      
+      System.out.print("Digite o autor do livro: ");
+      String autor = scanner.nextLine();
+      
+      System.out.print("Digite o ISBN do livro: ");
+      String isbn = scanner.nextLine();
+      
+      return new LivroFisico(titulo,autor,isbn,paginas);
    }
    
    private void removerLivroPorISBN() {

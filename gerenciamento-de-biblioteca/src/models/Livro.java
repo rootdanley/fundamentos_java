@@ -5,8 +5,7 @@ public class Livro {
     private String nome;
     private String autor;
     private String isbn;
-
-
+    
     public Livro() { }
 
     public Livro(String nome, String autor, String isbn) {
