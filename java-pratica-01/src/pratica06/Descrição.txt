@@ -1,0 +1,6 @@
+Exercício 6: Agenda de Contatos
+Objetivo: Utilizar a composição para gerenciar uma agenda de contatos.
+
+Descrição: Desenvolva uma classe Contato que contém informações como nome, email e número de telefone.
+Em seguida, crie uma classe Agenda que contém uma lista de Contato.
+A Agenda deve permitir adicionar, remover e buscar contatos por nome.

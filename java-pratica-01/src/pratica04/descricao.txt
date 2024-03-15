@@ -1,0 +1,5 @@
+Exercício 5: Sistema de Pedidos
+Objetivo: Praticar a composição em um cenário de sistema de pedidos.
+
+Descrição: Crie um sistema simples de pedidos onde cada Pedido pode conter vários ItemPedido.
+Cada ItemPedido deve ter um Produto e a quantidade pedida. Implemente funcionalidades para adicionar itens ao pedido e calcular o valor total do pedido.
