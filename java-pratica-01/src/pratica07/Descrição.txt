@@ -1,0 +1,21 @@
+Exercício 7: Enumeração com Métodos
+Objetivo: Aprofundar o uso de enumerações, adicionando comportamentos específicos.
+
+Descrição: Crie uma enumeração StatusPedido que represente os diferentes estados de um pedido (por exemplo, NOVO, PROCESSANDO, ENVIADO, ENTREGUE).
+Adicione um método na enumeração que retorne uma descrição amigável do status para ser mostrada ao usuário final.
+
+
+
+
+Explicação Detalhada
+
+Enumeração com Métodos:
+StatusPedido é uma enumeração com várias constantes que representam os estados de um pedido.
+Cada constante (NOVO, PROCESSANDO, ENVIADO, ENTREGUE) implementa o método abstrato getDescricao, que retorna uma String com uma descrição amigável desse estado.
+
+Métodos Abstratos em Enumerações:
+Ao declarar um método abstrato na enumeração, estamos obrigando cada constante a fornecer uma implementação para esse método.
+Isso permite que comportamentos específicos sejam associados com cada constante da enumeração.
+
+Flexibilidade:
+Esta abordagem oferece grande flexibilidade, permitindo que cada constante tenha uma lógica específica, o que seria mais difícil de conseguir se utilizássemos campos ou um método comum a todas as constantes.

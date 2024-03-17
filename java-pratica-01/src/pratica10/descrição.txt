@@ -1,0 +1,6 @@
+Exercício 10: Sistema de Reservas de Hotel
+Objetivo: Utilizar enumerações e composição para gerenciar um sistema de reservas de hotel.
+
+Descrição: Desenvolva um sistema para um hotel que inclua classes para Quarto, Reserva e Cliente.
+Use uma enumeração para categorias de quartos (por exemplo, SIMPLES, DUPLO, SUÍTE).
+Cada Reserva deve vincular um Cliente a um Quarto para datas específicas.

@@ -1,0 +1,6 @@
+Exercício 9: Sistema de Controle de Estoque
+Objetivo: Praticar a composição em um cenário de sistema de controle de estoque.
+
+Descrição: Crie um sistema de controle de estoque que inclua classes para Produto, ItemEstoque e Estoque.
+ItemEstoque deve conter um Produto e a quantidade disponível.
+A classe Estoque deve ser capaz de adicionar produtos, atualizar quantidades e listar todos os itens em estoque.
