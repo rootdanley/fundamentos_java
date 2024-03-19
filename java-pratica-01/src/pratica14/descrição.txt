@@ -1,0 +1,26 @@
+Com base no Exemplo #05, onde codificamos a public class Pilha<T>, crie a classe public class Fila<T>. Objetos Fila serão implementados de maneira semelhante à Pilha; ou seja, usando um arrayInterno.
+Ao invés de ter o atributo 'topo', substitua por 'numElementos' (promova as mudanças necessárias para isso). A Fila deverá ter o método public void push(T elemento), onde o elemento será colocado no final.
+Também deverá ter o método public T pop(), que devolverá o elemento presente na posição 0. Entretanto, com a chamada do método pop(), os elementos que vão permanecer na Fila deverão avançar uma posição.
+
+Tendo feito a classe Fila, você deverá criar um programa que simule a gestão da fila em um Banco ou de algum lugar que precise realizar atendimentos. Continuamente, seu programa deverá listar o seguinte menu:
+
+ENTRE COM A OPÇÃO DESEJADA
+============================
+[1] Emitir Nova Senha
+[2] Chamar Próximo da Fila
+[3] Fim
+
+Ao ler a opção [1], você deverá montar uma String aleatória que será composta de uma letra maiúscula e um número. Para a geração aleatória, coloco abaixo um possível uso da classe java.util.Random:
+
+// Instanciando um objeto Random
+Random r = new Random();
+// Sorteando uma letra maiúscula
+char c = (char)r.nextInt('A', 'Z'+1);
+// Sorteando um número de 0 a 9
+int num1 = r.nextInt(10);
+// Sorteando outro número de 0 a 9
+int num2 = r.nextInt(10);
+// Geração da String
+String senha = "SENHA " + c + num1 + num2;
+
+Você deverá gerar a senha e colocar em uma Fila de Strings. Se a opção for [2], você deverá pegar o primeiro da fila e listá-lo na tela. Por fim, se for [3], execute 'System.exit(0)'. Para leitura, utilize a classe Scanner e o método nextLine()
